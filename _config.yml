@@ -5,9 +5,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-defaults:
-  - scope:
-      path: "pages"
-    values:
-      layout: default
-      permalink: /:basename/
+plugins:
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
