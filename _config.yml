@@ -4,6 +4,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - vendor
 defaults:
   - scope:
       path: "pages"
