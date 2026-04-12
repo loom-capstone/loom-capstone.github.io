@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    /* https://systemfontstack.com */
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+header {
+    width: 16rem;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    width: 52ch;
+}

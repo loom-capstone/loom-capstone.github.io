@@ -1,0 +1,12 @@
+title: Loom
+theme: null
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+defaults:
+  - scope:
+      path: "pages"
+    values:
+      layout: default
+      permalink: /:basename/

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loom 4 | {{ page.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h2>
+            <a href="/">Loom 4</a>
+        </h2>
+        <p>
+            An internet of things rapid prototyping system for applications in environmental sensing.
+        </p>
+        <h3>Pages</h3>
+        <nav>
+            <ul>
+                {% for p in site.pages %}
+                    {% unless p.url contains '404' or p.url == '/' %}
+                        <li>
+                            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                                {{ p.title }}
+                            </a>
+                        </li>
+                    {% endunless %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
