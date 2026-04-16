@@ -68,3 +68,24 @@ pre.highlight {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    header {
+        flex: none;
+        width: 100%;
+        order: 2;
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+    }
+
+    main {
+        padding: 1rem 0;
+        order: 1;
+    }
+}
