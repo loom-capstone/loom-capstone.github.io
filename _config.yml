@@ -4,7 +4,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  - vendor
+  - vendor/
 plugins:
   - jekyll-default-layout
   - jekyll-titles-from-headings

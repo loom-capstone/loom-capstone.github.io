@@ -8,18 +8,18 @@ This guide is intended for onboarding new Loom developers.
     <dt>Arduino sketch</dt>
     <dd>An Arduino program file (<code>.ino</code>) that you write and upload to a microcontroller.</dd>
 
+    <dt>Board package</dt>
+    <dd>Describes how an Arduino sketch should be compiled and uploaded to a microcontroller. It specifies the target hardware, compilation settings, upload interface, and can include <a href="https://htmx.org/essays/vendoring/">vendored</a> libraries. Board packages are installed through the Arduino IDE board manager.</dd>
+
     <dt>Library</dt>
     <dd>A collection of C++ source files (<code>.cpp</code> and <code>.h</code>) that expose a public API to be utilized in an Arduino sketch.</dd>
-
-    <dt>Board package</dt>
-    <dd>Describes how an Arduino sketch should be compiled and uploaded to a microcontroller. It specifies the target hardware, compilation settings, upload interface, and can include <a href="https://slaptijack.com/programming/what-is-vendoring.html">vendored</a> libraries. Board packages are installed through the Arduino IDE board manager.</dd>
 </dl>
 
 ## Development Environment
 
-Users of Loom (i.e. the teams within OPEnSLab) install the latest version Loom via the Arduino IDE board manager. However, as a Loom team developer, you will want to work on features and fixes using local, version controlled source files.
+Users of Loom (i.e. the teams within OPEnS Lab) install the latest version Loom via the Arduino IDE board manager. However, as a Loom team developer, you will want to work on features and fixes using local, version controlled source files.
 
-Now let's begin setting up a local development environemnt on your computer.
+Now let's begin setting up a local development environment on your computer.
 
 ### Requirements
 
@@ -29,8 +29,6 @@ You must have the following software installed on your computer:
 * Git
 
 ### Creating Your Development Environment
-
-For the following steps, I will provide commands for a Unix system.
 
 1. Navigate to the [Arduino Sketchbook folder](https://support.arduino.cc/hc/en-us/articles/4412950938514-Open-the-Sketchbook-folder).
 
@@ -44,13 +42,13 @@ For the following steps, I will provide commands for a Unix system.
     mkdir -p libraries && cd libraries
     ```
 
-3. Clone the Loom library into the `libraries` folder. Name it something like `Loom-dev` so you can easily differentiate it from the libary installed with the Loom board package.
+3. Clone the Loom library into the `libraries` folder. Name it something like `Loom-dev` so you can easily differentiate it from the library installed with the Loom board package.
 
     ```
-    git clone git@github.com:OPEnSLab-OSU/Loom-V4.git Loom-dev
+    git clone https://github.com/OPEnSLab-OSU/Loom-V4.git Loom-dev
     ```
 
-    **Note:** placing a library in the `libraries` folder in your Arduino sketchbook folder overrides the other library versions.
+    **Note:** Placing a library in your Arduino Sketchbook's `libraries` folder overrides other installed versions of that library.
 
 That’s it! You now have a local development environment for working on Loom.
 

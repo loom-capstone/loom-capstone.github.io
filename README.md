@@ -2,13 +2,9 @@
 
 ## Development
 
-This website is built with Jekyll and deployed on GitHub Pages.
+This website is built with [Jekyll](https://jekyllrb.com/docs/installation/) and deployed on GitHub Pages.
 
-### Requirements
-
-* [Jekyll](https://jekyllrb.com/docs/installation/)
-
-### Running Locally
+To run locally:
 
 ```
 bundle exec jekyll serve

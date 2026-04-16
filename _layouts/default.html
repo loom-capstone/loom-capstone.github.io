@@ -17,14 +17,19 @@
         <h3>Pages</h3>
         <nav>
             <ul>
+                <li>
+                    <a href="/" {% if page.url == '/' %}class="active"{% endif %}>
+                        Landing Page
+                    </a>
+                </li>
                 {% for p in site.pages %}
-                    {% unless p.url contains '404' or p.url == '/' %}
-                        <li>
-                            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                                {{ p.title }}
-                            </a>
-                        </li>
-                    {% endunless %}
+                {% unless p.url contains '404' or p.url == '/' %}
+                <li>
+                    <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                        {{ p.title }}
+                    </a>
+                </li>
+                {% endunless %}
                 {% endfor %}
             </ul>
         </nav>

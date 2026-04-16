@@ -1,3 +1,3 @@
-# Welcome
+# Landing Page
 
 Lorem ipsum...
