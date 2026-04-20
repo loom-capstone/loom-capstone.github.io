@@ -22,4 +22,4 @@ Loom has been in active development since 2022. Special thanks to all of its pas
 
 ## Feedback
 
-Experienced and issue? Report it on [GitHub]
+Experienced and issue? Report it on [GitHub](https://github.com/OPEnSLab-OSU/Loom-V4/issues).
