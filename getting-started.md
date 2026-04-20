@@ -17,7 +17,7 @@ This guide is intended for onboarding new Loom developers.
 
 ## Development Environment
 
-Users of Loom (i.e. the teams within OPEnS Lab) install the latest version Loom via the Arduino IDE board manager. However, as a Loom team developer, you will want to work on features and fixes using local, version controlled source files.
+Users of Loom (i.e. the teams within OPEnS Lab) install the latest version Loom via the Arduino IDE board manager (see the [install guide](https://github.com/OPEnSLab-OSU/Loom-V4#install) for how to do this). However, as a Loom team developer, you will want to work on features and fixes using local, version controlled source files.
 
 Now let's begin setting up a local development environment on your computer.
 
