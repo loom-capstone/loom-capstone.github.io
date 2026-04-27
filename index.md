@@ -15,13 +15,11 @@ To run Loom in general, you need an Adafruit Feather m0 microcontroller, as well
 
 <a class="call-to-action" href="https://github.com/OPEnSLab-OSU/Loom-V4">View on GitHub</a>
 
-## Capstone Focus
+### Capstone Focus
 
 Our Capstone team focused on implementing select features to enhance Loom's existing framework. Namely, we developed a Heartbeat Dual Timer system, a Handshake system built over Loom's LoRa transmission framework, and a Location Sync system to process device locations. Additionally, we provided fixes for a backlog of long-standing bugs and improved the reliability of the Loom framework.
 
 To run the Heartbeat system, you need a minimum of two Adafruit Feather m0 microcontrollers, as well as the Loom Library and Board Profile installed (see above on how to get Loom running). You must then open and upload either the Hypnos_Transmit.ino or Loom_Std_Transmit.ino files to the sender, found within file location examples > Heartbeat > LoRa. Then you must open and upload the generic LoRa receive.ino file, found in examples > Radios > LoRa > SinglePacket, to the receiver. Then you will be able to observe the Heartbeat system running by observing the Serial output of those processes.
-
-<br/>
 
 ## Main Module of Work: Heartbeat Dual Alarm System
 
