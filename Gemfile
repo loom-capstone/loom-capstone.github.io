@@ -2,8 +2,6 @@ source "https://rubygems.org"
 
 gem 'faraday-retry'
 gem "github-pages", group: :jekyll_plugins
-gem "csv"
-gem "webrick"
 group :jekyll_plugins do
   gem 'jekyll-default-layout'
   gem 'jekyll-titles-from-headings'
