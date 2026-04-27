@@ -7,5 +7,9 @@ This website is built with [Jekyll](https://jekyllrb.com/docs/installation/) and
 To run locally:
 
 ```
+bundle install
+```
+
+```
 bundle exec jekyll serve
 ```

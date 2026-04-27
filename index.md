@@ -1,10 +1,14 @@
 # Welcome
 
-Project description and value proposition goes here.
+Loom helps researchers and developers quickly build low-cost environmental sensing systems using Arduino-compatible hardware. Designed for field-deployable sensor and actuator networks, it makes prototyping faster, deployment easier, and environmental monitoring more accessible. With Loom-V4’s simplified modular design, users can focus less on library complexity and more on collecting meaningful data in the field.
 
-* Key features
-* Highlights
-* Etc.
+Key Features include
+- MQTT Mesh and Star networks support
+- Sleep-mode via Hypnos PCBA
+- SD logging and storage
+- Memory management
+- Transmit packets with LTE or LoRa
+- Various supported sensors and actuators
 
 <a class="call-to-action" href="https://github.com/OPEnSLab-OSU/Loom-V4">View on GitHub</a>
 
@@ -23,3 +27,5 @@ Loom has been in active development since 2022. Special thanks to all of its pas
 ## Feedback
 
 Experienced and issue? Report it on [GitHub](https://github.com/OPEnSLab-OSU/Loom-V4/issues).
+
+[Get Started with Loom](getting-started.md)
